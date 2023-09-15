@@ -1,0 +1,12 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "host",
+    "interface",
+    "guest"
+]
+
+[profile.dev]
+opt-level = 2
